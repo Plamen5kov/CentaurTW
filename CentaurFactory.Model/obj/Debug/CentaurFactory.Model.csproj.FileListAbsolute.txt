@@ -3,3 +3,13 @@ D:\Telerik\Centaur\CentaurTW\CentaurFactory\CentaurFactory.Model\bin\Debug\Centa
 D:\Telerik\Centaur\CentaurTW\CentaurFactory\CentaurFactory.Model\obj\Debug\CentaurFactory.Model.csprojResolveAssemblyReference.cache
 D:\Telerik\Centaur\CentaurTW\CentaurFactory\CentaurFactory.Model\obj\Debug\CentaurFactory.Model.dll
 D:\Telerik\Centaur\CentaurTW\CentaurFactory\CentaurFactory.Model\obj\Debug\CentaurFactory.Model.pdb
+C:\Users\Woo\Documents\GitHub\CentaurTW\CentaurFactory.Model\bin\Debug\CentaurFactory.Model.dll.config
+C:\Users\Woo\Documents\GitHub\CentaurTW\CentaurFactory.Model\bin\Debug\CentaurFactory.Model.dll
+C:\Users\Woo\Documents\GitHub\CentaurTW\CentaurFactory.Model\bin\Debug\CentaurFactory.Model.pdb
+C:\Users\Woo\Documents\GitHub\CentaurTW\CentaurFactory.Model\bin\Debug\EntityFramework.dll
+C:\Users\Woo\Documents\GitHub\CentaurTW\CentaurFactory.Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Woo\Documents\GitHub\CentaurTW\CentaurFactory.Model\bin\Debug\EntityFramework.xml
+C:\Users\Woo\Documents\GitHub\CentaurTW\CentaurFactory.Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Woo\Documents\GitHub\CentaurTW\CentaurFactory.Model\obj\Debug\CentaurFactory.Model.csprojResolveAssemblyReference.cache
+C:\Users\Woo\Documents\GitHub\CentaurTW\CentaurFactory.Model\obj\Debug\CentaurFactory.Model.dll
+C:\Users\Woo\Documents\GitHub\CentaurTW\CentaurFactory.Model\obj\Debug\CentaurFactory.Model.pdb
