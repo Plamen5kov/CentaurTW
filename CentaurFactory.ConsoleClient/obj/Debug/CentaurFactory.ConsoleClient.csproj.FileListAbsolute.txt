@@ -1,0 +1,10 @@
+D:\Telerik\Centaur\CentaurTW\CentaurFactory\CentaurFactory.ConsoleClient\bin\Debug\CentaurFactory.ConsoleClient.exe.config
+D:\Telerik\Centaur\CentaurTW\CentaurFactory\CentaurFactory.ConsoleClient\bin\Debug\CentaurFactory.ConsoleClient.exe
+D:\Telerik\Centaur\CentaurTW\CentaurFactory\CentaurFactory.ConsoleClient\bin\Debug\CentaurFactory.ConsoleClient.pdb
+D:\Telerik\Centaur\CentaurTW\CentaurFactory\CentaurFactory.ConsoleClient\obj\Debug\CentaurFactory.ConsoleClient.exe
+D:\Telerik\Centaur\CentaurTW\CentaurFactory\CentaurFactory.ConsoleClient\obj\Debug\CentaurFactory.ConsoleClient.pdb
+D:\Telerik\Centaur\CentaurTW\CentaurFactory\CentaurFactory.ConsoleClient\bin\Debug\EntityFramework.dll
+D:\Telerik\Centaur\CentaurTW\CentaurFactory\CentaurFactory.ConsoleClient\bin\Debug\EntityFramework.SqlServer.dll
+D:\Telerik\Centaur\CentaurTW\CentaurFactory\CentaurFactory.ConsoleClient\bin\Debug\EntityFramework.xml
+D:\Telerik\Centaur\CentaurTW\CentaurFactory\CentaurFactory.ConsoleClient\bin\Debug\EntityFramework.SqlServer.xml
+D:\Telerik\Centaur\CentaurTW\CentaurFactory\CentaurFactory.ConsoleClient\obj\Debug\CentaurFactory.ConsoleClient.csprojResolveAssemblyReference.cache

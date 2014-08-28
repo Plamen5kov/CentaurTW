@@ -1,0 +1,5 @@
+D:\Telerik\Centaur\CentaurTW\CentaurFactory\CentaurFactory.Model\bin\Debug\CentaurFactory.Model.dll
+D:\Telerik\Centaur\CentaurTW\CentaurFactory\CentaurFactory.Model\bin\Debug\CentaurFactory.Model.pdb
+D:\Telerik\Centaur\CentaurTW\CentaurFactory\CentaurFactory.Model\obj\Debug\CentaurFactory.Model.csprojResolveAssemblyReference.cache
+D:\Telerik\Centaur\CentaurTW\CentaurFactory\CentaurFactory.Model\obj\Debug\CentaurFactory.Model.dll
+D:\Telerik\Centaur\CentaurTW\CentaurFactory\CentaurFactory.Model\obj\Debug\CentaurFactory.Model.pdb
