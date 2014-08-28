@@ -137,7 +137,8 @@ publish/
 # except build/, which is used as an MSBuild target.
 !**/packages/build/
 # If using the old MSBuild-Integrated Package Restore, uncomment this:
-/packages/EntityFramework.6.1.1
+packages/*
+!packages/repositories.config
 
 # Windows Azure Build Output
 csx/
