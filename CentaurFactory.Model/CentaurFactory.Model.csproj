@@ -52,12 +52,6 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\CentaurFactory.ConsoleClient\CentaurFactory.ConsoleClient.csproj">
-      <Project>{a55b052d-2e6a-4b31-8100-b6b470ffa189}</Project>
-      <Name>CentaurFactory.ConsoleClient</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

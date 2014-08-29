@@ -1,0 +1,16 @@
+C:\Users\Woo\Documents\GitHub\CentaurTW\CentaurFactory.Data\bin\Debug\CentaurFactory.Data.dll.config
+C:\Users\Woo\Documents\GitHub\CentaurTW\CentaurFactory.Data\bin\Debug\CentaurFactory.Data.dll
+C:\Users\Woo\Documents\GitHub\CentaurTW\CentaurFactory.Data\bin\Debug\CentaurFactory.Data.pdb
+C:\Users\Woo\Documents\GitHub\CentaurTW\CentaurFactory.Data\bin\Debug\CentaurFactory.Model.dll
+C:\Users\Woo\Documents\GitHub\CentaurTW\CentaurFactory.Data\bin\Debug\EntityFramework.dll
+C:\Users\Woo\Documents\GitHub\CentaurTW\CentaurFactory.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Woo\Documents\GitHub\CentaurTW\CentaurFactory.Data\bin\Debug\MongoDB.Driver.dll
+C:\Users\Woo\Documents\GitHub\CentaurTW\CentaurFactory.Data\bin\Debug\MongoDB.Bson.dll
+C:\Users\Woo\Documents\GitHub\CentaurTW\CentaurFactory.Data\bin\Debug\CentaurFactory.Model.pdb
+C:\Users\Woo\Documents\GitHub\CentaurTW\CentaurFactory.Data\bin\Debug\EntityFramework.xml
+C:\Users\Woo\Documents\GitHub\CentaurTW\CentaurFactory.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Woo\Documents\GitHub\CentaurTW\CentaurFactory.Data\bin\Debug\MongoDB.Driver.xml
+C:\Users\Woo\Documents\GitHub\CentaurTW\CentaurFactory.Data\bin\Debug\MongoDB.Bson.xml
+C:\Users\Woo\Documents\GitHub\CentaurTW\CentaurFactory.Data\obj\Debug\CentaurFactory.Data.csprojResolveAssemblyReference.cache
+C:\Users\Woo\Documents\GitHub\CentaurTW\CentaurFactory.Data\obj\Debug\CentaurFactory.Data.dll
+C:\Users\Woo\Documents\GitHub\CentaurTW\CentaurFactory.Data\obj\Debug\CentaurFactory.Data.pdb
