@@ -23,11 +23,13 @@
     {
         public static void Main()
         {
-            // To be able to run this code you need first to download mongodb server local on your computer.
-            // this is the link for windows 64 
-            // https://fastdl.mongodb.org/win32/mongodb-win32-x86_64-2008plus-2.6.4.zip .
-            // When you download the zip you need to start up the bin/mongod.exe file(this is the server).
-            // Then you can run the program successfully.
+            /* To be able to run this code you need first to download mongodb server local on your computer.
+               this is the link for windows 64 
+               https://fastdl.mongodb.org/win32/mongodb-win32-x86_64-2008plus-2.6.4.zip .
+               Before you start up the bin/mongod.exe file(this is the server) you need to 
+               create a new 'data/db' directory in C:/ and than you start the mongod.exe file.
+               Then you can run the program successfully. */
+
             var mongoClient = new MongoClient("mongodb://localhost/");
             var mongoServer = mongoClient.GetServer();
             var centaurRestaurantDb = mongoServer.GetDatabase("CentaurRestaurantDb");
