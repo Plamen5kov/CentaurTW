@@ -18,6 +18,8 @@
     using CentaurFactory.Data;
     using System.Collections.Generic;
     using System.Linq;
+    using System.Configuration;
+    using CentaurFactory.MongoDbProvider;
 
     public class EntryPoint
     {
@@ -30,54 +32,21 @@
                create a new 'data/db' directory in C:/ and than you start the mongod.exe file.
                Then you can run the program successfully. */
 
-            var mongoClient = new MongoClient("mongodb://localhost/");
-            var mongoServer = mongoClient.GetServer();
-            var centaurRestaurantDb = mongoServer.GetDatabase("CentaurRestaurantDb");
-           
-            var unitTypes = new List<UnitType>()
-            {
-                new UnitType("Kilogramme"),
-                new UnitType("Litre"),
-                new UnitType("Number"),
-            };
+            //var mongoClient = new MongoClient("mongodb://192.168.0.100/");
+            //var mongoServer = mongoClient.GetServer();
+            //var centaurRestaurantDb = mongoServer.GetDatabase("CentaurRestaurantDb");
+            var mongoProvider = new MongoProvider(ConfigurationManager.AppSettings["mongoDB"], "centaur_restaurant_db");
+            var mongoRepo = new MongoRepository(mongoProvider);
 
-            var productTypes = new List<ProductType>()
-            {
-                new ProductType("Fruit"),
-                new ProductType("Vegetable"),
-                new ProductType("Herb"),
-                new ProductType("Dairy"),
-                new ProductType("Meat")
-            };
+            // uncomment to load data to mongo db
+            //mongoRepo.InitData();
 
-            var products = new List<Product>()
-            { 
-               new Product("Tomatoe", 250,unitTypes[0], productTypes[1]),
-                new Product("Cucumber", 120, unitTypes[0], productTypes[1]),
-                new Product("Onion", 120, unitTypes[0], productTypes[1]),
-               new Product("WhiteCheese", 40, unitTypes[0], productTypes[3])
+            // uncomment to clear the data
+            //mongoRepo.EreaseData();
 
-            };
-            SaveData<UnitType>(centaurRestaurantDb, unitTypes[0]);
-            SaveData<UnitType>(centaurRestaurantDb, unitTypes[1]);
-            SaveData<UnitType>(centaurRestaurantDb, unitTypes[2]);
-
-            //These are added every time you run the program, but this is easy to be fixed.
-            SaveData<ProductType>(centaurRestaurantDb, productTypes[0]);
-            SaveData<ProductType>(centaurRestaurantDb, productTypes[1]);
-            SaveData<ProductType>(centaurRestaurantDb, productTypes[2]);
-            SaveData<ProductType>(centaurRestaurantDb, productTypes[3]);
-            SaveData<ProductType>(centaurRestaurantDb, productTypes[4]);
-
-            SaveData<Product>(centaurRestaurantDb, products[0]);
-            SaveData<Product>(centaurRestaurantDb, products[1]);
-            SaveData<Product>(centaurRestaurantDb, products[2]);
-            SaveData<Product>(centaurRestaurantDb, products[3]);
-            
-            //DeleteAll<Product>(centaurRestaurantDb);
-            var allProductsInDb = LoadData<Product>(centaurRestaurantDb);
-            var allUnitTypesInDb = LoadData<UnitType>(centaurRestaurantDb);
-            var allProductTypesInDb = LoadData<ProductType>(centaurRestaurantDb);
+            var allProductsInDb = mongoRepo.GetProducts();
+            var allUnitTypesInDb = mongoRepo.GetUntTypes();
+            var allProductTypesInDb = mongoRepo.GetProductTypes();
             foreach (var item in allUnitTypesInDb)
             {
                 Console.WriteLine(item.ToString());
@@ -90,21 +59,6 @@
             {
                 Console.WriteLine(item.ToString());
             }
-        }
-
-        public static void SaveData<T>(MongoDatabase db, T value)
-        {
-                var result = db.GetCollection<T>(typeof(T).Name).Save(value);
-        }
-
-        public static IQueryable<T> LoadData<T>(MongoDatabase db)
-        {
-            return db.GetCollection<T>(typeof(T).Name).AsQueryable();
-        }
-
-        public static void DeleteAll<T>(MongoDatabase db)
-        {
-            db.GetCollection<T>(typeof(T).Name).RemoveAll();
         }
     }
 }

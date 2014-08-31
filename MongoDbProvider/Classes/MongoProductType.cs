@@ -1,21 +1,20 @@
-﻿namespace CentaurFactory.Data
+﻿using CentaurFactory.Model;
+
+namespace CentaurFactory.MongoDbProvider
 {
-    public class ProductType
+    internal class MongoProductType
     {
         private static int ID = 0;
+
         public int Id { get; set; }
+
         public string Name { get; set; }
 
-        public ProductType(string productTypeName)
+        public MongoProductType(string productTypeName)
         {
             ID++;
             this.Id = ID;
             this.Name = productTypeName;
-        }
-
-        public override string ToString()
-        {
-            return this.Id + " " + this.Name;
         }
     }
 }

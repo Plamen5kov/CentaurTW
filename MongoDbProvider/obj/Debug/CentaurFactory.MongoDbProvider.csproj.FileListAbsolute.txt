@@ -1,0 +1,11 @@
+C:\Users\Ivan\Desktop\CentaurTW\MongoDbProvider\bin\Debug\MongoDbProvider.dll
+C:\Users\Ivan\Desktop\CentaurTW\MongoDbProvider\bin\Debug\MongoDbProvider.pdb
+C:\Users\Ivan\Desktop\CentaurTW\MongoDbProvider\bin\Debug\MongoDB.Bson.dll
+C:\Users\Ivan\Desktop\CentaurTW\MongoDbProvider\bin\Debug\MongoDB.Driver.dll
+C:\Users\Ivan\Desktop\CentaurTW\MongoDbProvider\bin\Debug\MongoDB.Bson.xml
+C:\Users\Ivan\Desktop\CentaurTW\MongoDbProvider\bin\Debug\MongoDB.Driver.xml
+C:\Users\Ivan\Desktop\CentaurTW\MongoDbProvider\obj\Debug\CentaurFactory.MongoDbProvider.csprojResolveAssemblyReference.cache
+C:\Users\Ivan\Desktop\CentaurTW\MongoDbProvider\obj\Debug\MongoDbProvider.dll
+C:\Users\Ivan\Desktop\CentaurTW\MongoDbProvider\obj\Debug\MongoDbProvider.pdb
+C:\Users\Ivan\Desktop\CentaurTW\MongoDbProvider\bin\Debug\CentaurFactory.Model.dll
+C:\Users\Ivan\Desktop\CentaurTW\MongoDbProvider\bin\Debug\CentaurFactory.Model.pdb

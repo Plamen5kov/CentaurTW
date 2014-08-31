@@ -46,6 +46,7 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -65,6 +66,14 @@
     <ProjectReference Include="..\CentaurFactory.Data\CentaurFactory.Data.csproj">
       <Project>{7ed45ec2-cbba-4aaa-a9a4-861bf1cf474a}</Project>
       <Name>CentaurFactory.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CentaurFactory.Model\CentaurFactory.Model.csproj">
+      <Project>{1131de1e-4a90-4c68-a123-3f43f060367e}</Project>
+      <Name>CentaurFactory.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MongoDbProvider\CentaurFactory.MongoDbProvider.csproj">
+      <Project>{832d1a40-23b8-430e-8e55-96995957bee5}</Project>
+      <Name>CentaurFactory.MongoDbProvider</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
