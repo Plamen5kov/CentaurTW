@@ -20,6 +20,7 @@
     using System.Linq;
     using System.Configuration;
     using CentaurFactory.MongoDbProvider;
+    using Ionic.Zip;
 
     public class EntryPoint
     {
@@ -44,20 +45,40 @@
             // uncomment to clear the data
             //mongoRepo.EreaseData();
 
-            var allProductsInDb = mongoRepo.GetProducts();
-            var allUnitTypesInDb = mongoRepo.GetUntTypes();
-            var allProductTypesInDb = mongoRepo.GetProductTypes();
-            foreach (var item in allUnitTypesInDb)
+            //var allProductsInDb = mongoRepo.GetProducts();
+            //var allUnitTypesInDb = mongoRepo.GetUntTypes();
+            //var allProductTypesInDb = mongoRepo.GetProductTypes();
+            //foreach (var item in allUnitTypesInDb)
+            //{
+            //    Console.WriteLine(item.ToString());
+            //}
+            //foreach (var item in allProductsInDb)
+            //{
+            //    Console.WriteLine(item.ToString());
+            //}
+            //foreach (var item in allProductTypesInDb)
+            //{
+            //    Console.WriteLine(item.ToString());
+            //}
+
+            ExtractZipFiles();
+        }
+
+        /// <summary>
+        /// Extracts the zip file into a given directory
+        /// </summary>
+        /// <param name="path"></param>
+        private static void ExtractZipFiles()
+        {
+            string zipToUnpack = "../../ExcelFile.zip";
+            string unpackDirectory = "../../";
+
+            using (ZipFile zip = ZipFile.Read(zipToUnpack))
             {
-                Console.WriteLine(item.ToString());
-            }
-            foreach (var item in allProductsInDb)
-            {
-                Console.WriteLine(item.ToString());
-            }
-            foreach (var item in allProductTypesInDb)
-            {
-                Console.WriteLine(item.ToString());
+                foreach (ZipEntry entry in zip)
+                {
+                    entry.Extract(unpackDirectory, ExtractExistingFileAction.OverwriteSilently);
+                }
             }
         }
     }
