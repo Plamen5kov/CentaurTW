@@ -65,14 +65,6 @@
             //}
 
             ExtractZipFiles();
-            var deliveryParser = new DeliveryParser();
-            deliveryParser.ReadFromExcelFiles();
-            var deliveries = deliveryParser.Deliveries;
-
-            foreach (var deliveryInfo in deliveries)
-            {
-                Console.WriteLine(deliveryInfo);
-            }
         }
 
         /// <summary>
