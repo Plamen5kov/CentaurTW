@@ -22,6 +22,9 @@
     using CentaurFactory.MongoDbProvider;
     using Ionic.Zip;
 
+    using CentaurFactory.ExcelModel;
+    using CentaurFactory.ExcelModel.Parsers;
+
     public class EntryPoint
     {
         public static void Main()
@@ -62,6 +65,14 @@
             //}
 
             ExtractZipFiles();
+            var deliveryParser = new DeliveryParser();
+            deliveryParser.ReadFromExcelFiles();
+            var deliveries = deliveryParser.Deliveries;
+
+            foreach (var deliveryInfo in deliveries)
+            {
+                Console.WriteLine(deliveryInfo);
+            }
         }
 
         /// <summary>
@@ -70,7 +81,7 @@
         /// <param name="path"></param>
         private static void ExtractZipFiles()
         {
-            string zipToUnpack = "../../ExcelFile.zip";
+            string zipToUnpack = "../../Report-Jul-2013.zip";
             string unpackDirectory = "../../";
 
             using (ZipFile zip = ZipFile.Read(zipToUnpack))

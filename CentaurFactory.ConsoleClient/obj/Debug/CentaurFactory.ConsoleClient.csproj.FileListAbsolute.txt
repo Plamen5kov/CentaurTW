@@ -66,3 +66,5 @@ D:\Telerik\Repos\CentaurTW\CentaurFactory.ConsoleClient\bin\Debug\MongoDB.Driver
 D:\Telerik\Repos\CentaurTW\CentaurFactory.ConsoleClient\obj\Debug\CentaurFactory.ConsoleClient.csprojResolveAssemblyReference.cache
 D:\Telerik\Repos\CentaurTW\CentaurFactory.ConsoleClient\bin\Debug\Ionic.Zip.dll
 D:\Telerik\Repos\CentaurTW\CentaurFactory.ConsoleClient\bin\Debug\Ionic.Zip.xml
+D:\Telerik\Repos\CentaurTW\CentaurFactory.ConsoleClient\bin\Debug\CentaurFactory.ExcelModel.dll
+D:\Telerik\Repos\CentaurTW\CentaurFactory.ConsoleClient\bin\Debug\CentaurFactory.ExcelModel.pdb

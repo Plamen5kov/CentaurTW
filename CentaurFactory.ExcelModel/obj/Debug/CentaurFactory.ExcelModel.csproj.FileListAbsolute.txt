@@ -1,0 +1,4 @@
+D:\Telerik\Repos\CentaurTW\CentaurFactory.ExcelModel\bin\Debug\CentaurFactory.ExcelModel.dll
+D:\Telerik\Repos\CentaurTW\CentaurFactory.ExcelModel\bin\Debug\CentaurFactory.ExcelModel.pdb
+D:\Telerik\Repos\CentaurTW\CentaurFactory.ExcelModel\obj\Debug\CentaurFactory.ExcelModel.dll
+D:\Telerik\Repos\CentaurTW\CentaurFactory.ExcelModel\obj\Debug\CentaurFactory.ExcelModel.pdb
