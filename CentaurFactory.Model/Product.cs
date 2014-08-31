@@ -8,6 +8,8 @@ namespace CentaurFactory.Model
 {
     public class Product
     {
+        public int Id { get; set; }
+
         public virtual string Name { get; set; }
 
         public virtual ProductType ProductType { get; set; }
