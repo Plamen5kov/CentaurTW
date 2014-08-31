@@ -2,3 +2,8 @@ D:\Telerik\Repos\CentaurTW\CentaurFactory.ExcelModel\bin\Debug\CentaurFactory.Ex
 D:\Telerik\Repos\CentaurTW\CentaurFactory.ExcelModel\bin\Debug\CentaurFactory.ExcelModel.pdb
 D:\Telerik\Repos\CentaurTW\CentaurFactory.ExcelModel\obj\Debug\CentaurFactory.ExcelModel.dll
 D:\Telerik\Repos\CentaurTW\CentaurFactory.ExcelModel\obj\Debug\CentaurFactory.ExcelModel.pdb
+C:\Users\Ivan\Desktop\CentaurTW\CentaurFactory.ExcelModel\bin\Debug\CentaurFactory.ExcelModel.dll
+C:\Users\Ivan\Desktop\CentaurTW\CentaurFactory.ExcelModel\bin\Debug\CentaurFactory.ExcelModel.pdb
+C:\Users\Ivan\Desktop\CentaurTW\CentaurFactory.ExcelModel\obj\Debug\CentaurFactory.ExcelModel.csprojResolveAssemblyReference.cache
+C:\Users\Ivan\Desktop\CentaurTW\CentaurFactory.ExcelModel\obj\Debug\CentaurFactory.ExcelModel.dll
+C:\Users\Ivan\Desktop\CentaurTW\CentaurFactory.ExcelModel\obj\Debug\CentaurFactory.ExcelModel.pdb
