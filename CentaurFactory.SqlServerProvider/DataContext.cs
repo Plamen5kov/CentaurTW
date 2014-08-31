@@ -7,6 +7,11 @@
 
     internal class DataContext : DbContext
     {
+        public DataContext()
+            : base("SQLServer")
+        {
+        }
+
         public DataContext(string connectionString)
             : base(connectionString)
         {

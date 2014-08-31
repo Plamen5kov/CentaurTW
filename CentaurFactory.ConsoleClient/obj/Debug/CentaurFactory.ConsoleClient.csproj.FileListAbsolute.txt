@@ -72,3 +72,5 @@ C:\Users\Ivan\Desktop\CentaurTW\CentaurFactory.ConsoleClient\bin\Debug\EntityFra
 C:\Users\Ivan\Desktop\CentaurTW\CentaurFactory.ConsoleClient\bin\Debug\Ionic.Zip.dll
 C:\Users\Ivan\Desktop\CentaurTW\CentaurFactory.ConsoleClient\bin\Debug\MongoDB.Bson.dll
 C:\Users\Ivan\Desktop\CentaurTW\CentaurFactory.ConsoleClient\bin\Debug\MongoDB.Driver.dll
+C:\Users\Ivan\Desktop\CentaurTW\CentaurFactory.ConsoleClient\bin\Debug\CentaurFactory.SqlServerProvider.dll
+C:\Users\Ivan\Desktop\CentaurTW\CentaurFactory.ConsoleClient\bin\Debug\CentaurFactory.SqlServerProvider.pdb
