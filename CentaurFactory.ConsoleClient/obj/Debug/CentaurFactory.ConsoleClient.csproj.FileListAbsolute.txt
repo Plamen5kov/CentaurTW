@@ -30,10 +30,6 @@ C:\Users\Ivan\Desktop\CentaurTW\CentaurFactory.ConsoleClient\obj\Debug\CentaurFa
 C:\Users\Ivan\Desktop\CentaurTW\CentaurFactory.ConsoleClient\bin\Debug\CentaurFactory.ConsoleClient.exe
 C:\Users\Ivan\Desktop\CentaurTW\CentaurFactory.ConsoleClient\bin\Debug\CentaurFactory.ConsoleClient.pdb
 C:\Users\Ivan\Desktop\CentaurTW\CentaurFactory.ConsoleClient\bin\Debug\CentaurFactory.Data.dll
-C:\Users\Ivan\Desktop\CentaurTW\CentaurFactory.ConsoleClient\bin\Debug\EntityFramework.dll
-C:\Users\Ivan\Desktop\CentaurTW\CentaurFactory.ConsoleClient\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\Ivan\Desktop\CentaurTW\CentaurFactory.ConsoleClient\bin\Debug\MongoDB.Bson.dll
-C:\Users\Ivan\Desktop\CentaurTW\CentaurFactory.ConsoleClient\bin\Debug\MongoDB.Driver.dll
 C:\Users\Ivan\Desktop\CentaurTW\CentaurFactory.ConsoleClient\bin\Debug\CentaurFactory.Data.pdb
 C:\Users\Ivan\Desktop\CentaurTW\CentaurFactory.ConsoleClient\bin\Debug\EntityFramework.xml
 C:\Users\Ivan\Desktop\CentaurTW\CentaurFactory.ConsoleClient\bin\Debug\EntityFramework.SqlServer.xml
@@ -68,3 +64,6 @@ D:\Telerik\Repos\CentaurTW\CentaurFactory.ConsoleClient\bin\Debug\Ionic.Zip.dll
 D:\Telerik\Repos\CentaurTW\CentaurFactory.ConsoleClient\bin\Debug\Ionic.Zip.xml
 D:\Telerik\Repos\CentaurTW\CentaurFactory.ConsoleClient\bin\Debug\CentaurFactory.ExcelModel.dll
 D:\Telerik\Repos\CentaurTW\CentaurFactory.ConsoleClient\bin\Debug\CentaurFactory.ExcelModel.pdb
+C:\Users\Ivan\Desktop\CentaurTW\CentaurFactory.ConsoleClient\bin\Debug\CentaurFactory.ExcelModel.dll
+C:\Users\Ivan\Desktop\CentaurTW\CentaurFactory.ConsoleClient\bin\Debug\CentaurFactory.ExcelModel.pdb
+C:\Users\Ivan\Desktop\CentaurTW\CentaurFactory.ConsoleClient\bin\Debug\Ionic.Zip.xml
