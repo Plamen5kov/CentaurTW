@@ -18,6 +18,11 @@ C:\Users\Ivan\Desktop\CentaurTW\CentaurFactory.Model\bin\Debug\CentaurFactory.Mo
 C:\Users\Ivan\Desktop\CentaurTW\CentaurFactory.Model\bin\Debug\CentaurFactory.Model.pdb
 C:\Users\Ivan\Desktop\CentaurTW\CentaurFactory.Model\obj\Debug\CentaurFactory.Model.dll
 C:\Users\Ivan\Desktop\CentaurTW\CentaurFactory.Model\obj\Debug\CentaurFactory.Model.pdb
+C:\Users\Ivan\Desktop\CentaurTW\CentaurFactory.Model\bin\Debug\EntityFramework.dll
+C:\Users\Ivan\Desktop\CentaurTW\CentaurFactory.Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ivan\Desktop\CentaurTW\CentaurFactory.Model\bin\Debug\EntityFramework.xml
+C:\Users\Ivan\Desktop\CentaurTW\CentaurFactory.Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ivan\Desktop\CentaurTW\CentaurFactory.Model\obj\Debug\CentaurFactory.Model.csprojResolveAssemblyReference.cache
 D:\Telerik\Repos\CentaurTW\CentaurFactory.Model\bin\Debug\CentaurFactory.Model.dll.config
 D:\Telerik\Repos\CentaurTW\CentaurFactory.Model\bin\Debug\CentaurFactory.Model.dll
 D:\Telerik\Repos\CentaurTW\CentaurFactory.Model\bin\Debug\CentaurFactory.Model.pdb
@@ -25,11 +30,5 @@ D:\Telerik\Repos\CentaurTW\CentaurFactory.Model\bin\Debug\EntityFramework.dll
 D:\Telerik\Repos\CentaurTW\CentaurFactory.Model\bin\Debug\EntityFramework.SqlServer.dll
 D:\Telerik\Repos\CentaurTW\CentaurFactory.Model\bin\Debug\EntityFramework.xml
 D:\Telerik\Repos\CentaurTW\CentaurFactory.Model\bin\Debug\EntityFramework.SqlServer.xml
-D:\Telerik\Repos\CentaurTW\CentaurFactory.Model\obj\Debug\CentaurFactory.Model.csprojResolveAssemblyReference.cache
 D:\Telerik\Repos\CentaurTW\CentaurFactory.Model\obj\Debug\CentaurFactory.Model.dll
 D:\Telerik\Repos\CentaurTW\CentaurFactory.Model\obj\Debug\CentaurFactory.Model.pdb
-C:\Users\Ivan\Desktop\CentaurTW\CentaurFactory.Model\bin\Debug\EntityFramework.dll
-C:\Users\Ivan\Desktop\CentaurTW\CentaurFactory.Model\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\Ivan\Desktop\CentaurTW\CentaurFactory.Model\bin\Debug\EntityFramework.xml
-C:\Users\Ivan\Desktop\CentaurTW\CentaurFactory.Model\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\Ivan\Desktop\CentaurTW\CentaurFactory.Model\obj\Debug\CentaurFactory.Model.csprojResolveAssemblyReference.cache

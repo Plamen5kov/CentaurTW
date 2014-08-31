@@ -46,10 +46,9 @@
             // uncomment to load data to mongo db
             //mongoRepo.InitData();
 
-            var allProductsInDb = mongoRepo.GetProducts();
-            var sqlServerRepo = new SqlServerRepository("SQLServer");
-
-            sqlServerRepo.AddProducts(allProductsInDb);
+            //var allProductsInDb = mongoRepo.GetProducts();
+            //var sqlServerRepo = new SqlServerRepository("SQLServer");
+            //sqlServerRepo.AddProducts(allProductsInDb);
 
             // uncomment to clear the data
             //mongoRepo.EreaseData();
