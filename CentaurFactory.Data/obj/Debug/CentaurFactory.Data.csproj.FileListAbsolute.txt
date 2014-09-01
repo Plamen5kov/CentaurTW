@@ -46,3 +46,7 @@ D:\Telerik\Repos\CentaurTW\CentaurFactory.Data\bin\Debug\MongoDB.Driver.xml
 D:\Telerik\Repos\CentaurTW\CentaurFactory.Data\obj\Debug\CentaurFactory.Data.csprojResolveAssemblyReference.cache
 D:\Telerik\Repos\CentaurTW\CentaurFactory.Data\obj\Debug\CentaurFactory.Data.dll
 D:\Telerik\Repos\CentaurTW\CentaurFactory.Data\obj\Debug\CentaurFactory.Data.pdb
+C:\Users\Woo\Documents\GitHub\CentaurTW\CentaurFactory.Data\bin\Debug\Telerik.OpenAccess.35.Extensions.dll
+C:\Users\Woo\Documents\GitHub\CentaurTW\CentaurFactory.Data\bin\Debug\Telerik.OpenAccess.40.Extensions.dll
+C:\Users\Woo\Documents\GitHub\CentaurTW\CentaurFactory.Data\bin\Debug\Telerik.OpenAccess.35.Extensions.xml
+C:\Users\Woo\Documents\GitHub\CentaurTW\CentaurFactory.Data\bin\Debug\Telerik.OpenAccess.40.Extensions.xml

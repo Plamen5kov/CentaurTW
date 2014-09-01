@@ -20,6 +20,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{892B04
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CentaurFactory.ExcelModel", "CentaurFactory.ExcelModel\CentaurFactory.ExcelModel.csproj", "{EFFB95EB-E5DC-4EDB-8562-C861FD35C351}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CentaurFactory.MySqlPRovider", "CentaurFactory.MySqlPRovider\CentaurFactory.MySqlPRovider.csproj", "{6F9C2621-695C-4BDE-881B-157DCAA75C07}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -50,6 +52,10 @@ Global
 		{EFFB95EB-E5DC-4EDB-8562-C861FD35C351}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EFFB95EB-E5DC-4EDB-8562-C861FD35C351}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EFFB95EB-E5DC-4EDB-8562-C861FD35C351}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F9C2621-695C-4BDE-881B-157DCAA75C07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F9C2621-695C-4BDE-881B-157DCAA75C07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F9C2621-695C-4BDE-881B-157DCAA75C07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F9C2621-695C-4BDE-881B-157DCAA75C07}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

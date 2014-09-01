@@ -31,3 +31,7 @@ C:\Users\Woo\Documents\GitHub\CentaurTW\MongoDbProvider\bin\Debug\MongoDB.Driver
 C:\Users\Woo\Documents\GitHub\CentaurTW\MongoDbProvider\obj\Debug\CentaurFactory.MongoDbProvider.csprojResolveAssemblyReference.cache
 C:\Users\Woo\Documents\GitHub\CentaurTW\MongoDbProvider\obj\Debug\MongoDbProvider.dll
 C:\Users\Woo\Documents\GitHub\CentaurTW\MongoDbProvider\obj\Debug\MongoDbProvider.pdb
+C:\Users\Woo\Documents\GitHub\CentaurTW\MongoDbProvider\bin\Debug\Telerik.OpenAccess.35.Extensions.dll
+C:\Users\Woo\Documents\GitHub\CentaurTW\MongoDbProvider\bin\Debug\Telerik.OpenAccess.40.Extensions.dll
+C:\Users\Woo\Documents\GitHub\CentaurTW\MongoDbProvider\bin\Debug\Telerik.OpenAccess.35.Extensions.xml
+C:\Users\Woo\Documents\GitHub\CentaurTW\MongoDbProvider\bin\Debug\Telerik.OpenAccess.40.Extensions.xml

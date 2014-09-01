@@ -32,3 +32,7 @@ D:\Telerik\Repos\CentaurTW\CentaurFactory.Model\bin\Debug\EntityFramework.xml
 D:\Telerik\Repos\CentaurTW\CentaurFactory.Model\bin\Debug\EntityFramework.SqlServer.xml
 D:\Telerik\Repos\CentaurTW\CentaurFactory.Model\obj\Debug\CentaurFactory.Model.dll
 D:\Telerik\Repos\CentaurTW\CentaurFactory.Model\obj\Debug\CentaurFactory.Model.pdb
+C:\Users\Woo\Documents\GitHub\CentaurTW\CentaurFactory.Model\bin\Debug\Telerik.OpenAccess.35.Extensions.dll
+C:\Users\Woo\Documents\GitHub\CentaurTW\CentaurFactory.Model\bin\Debug\Telerik.OpenAccess.40.Extensions.dll
+C:\Users\Woo\Documents\GitHub\CentaurTW\CentaurFactory.Model\bin\Debug\Telerik.OpenAccess.35.Extensions.xml
+C:\Users\Woo\Documents\GitHub\CentaurTW\CentaurFactory.Model\bin\Debug\Telerik.OpenAccess.40.Extensions.xml

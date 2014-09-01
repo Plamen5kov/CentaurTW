@@ -26,6 +26,9 @@
     using CentaurFactory.ExcelModel.Parsers;
     using CentaurFactory.SqlServerProvider;
 
+    using Telerik.OpenAccess;
+    using MySqlPRovider;
+
     public class EntryPoint
     {
         public static void Main()
@@ -40,8 +43,8 @@
             //var mongoClient = new MongoClient("mongodb://192.168.0.100/");
             //var mongoServer = mongoClient.GetServer();
             //var centaurRestaurantDb = mongoServer.GetDatabase("CentaurRestaurantDb");
-            var mongoProvider = new MongoProvider(ConfigurationManager.AppSettings["mongoDB"], "centaur_restaurant_db");
-            var mongoRepo = new MongoRepository(mongoProvider);
+           // var mongoProvider = new MongoProvider(ConfigurationManager.AppSettings["mongoDB"], "centaur_restaurant_db");
+          //  var mongoRepo = new MongoRepository(mongoProvider);
 
             // uncomment to load data to mongo db
             //mongoRepo.InitData();
@@ -69,7 +72,9 @@
             //    Console.WriteLine(item.ToString());
             //}
 
-            ExtractZipFiles();
+            UpdateDatabase();
+
+           // ExtractZipFiles();
         }
 
         /// <summary>
@@ -87,6 +92,34 @@
                 {
                     entry.Extract(unpackDirectory, ExtractExistingFileAction.OverwriteSilently);
                 }
+            }
+        }
+
+        private static void UpdateDatabase()
+        {
+            using (var context = new MySqlPRovider.CentaurFactoryModel())
+            {
+                var schemaHandler = context.GetSchemaHandler();
+                EnsureDB(schemaHandler);
+            }
+        }
+
+        private static void EnsureDB(ISchemaHandler schemaHandler)
+        {
+            string script = null;
+            if (schemaHandler.DatabaseExists())
+            {
+                script = schemaHandler.CreateUpdateDDLScript(null);
+            }
+            else
+            {
+                schemaHandler.CreateDatabase();
+                script = schemaHandler.CreateDDLScript();
+            }
+
+            if (!string.IsNullOrEmpty(script))
+            {
+                schemaHandler.ExecuteDDLScript(script);
             }
         }
     }
