@@ -60,6 +60,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\MongoDish.cs" />
+    <Compile Include="Classes\MongoIngredient.cs" />
     <Compile Include="Classes\MongoProduct.cs" />
     <Compile Include="Classes\MongoProductType.cs" />
     <Compile Include="Classes\MongoUnitType.cs" />
