@@ -20,3 +20,14 @@ D:\Telerik\Repos\CentaurTW\MongoDbProvider\bin\Debug\MongoDB.Driver.xml
 D:\Telerik\Repos\CentaurTW\MongoDbProvider\obj\Debug\CentaurFactory.MongoDbProvider.csprojResolveAssemblyReference.cache
 D:\Telerik\Repos\CentaurTW\MongoDbProvider\obj\Debug\MongoDbProvider.dll
 D:\Telerik\Repos\CentaurTW\MongoDbProvider\obj\Debug\MongoDbProvider.pdb
+C:\Users\Woo\Documents\GitHub\CentaurTW\MongoDbProvider\bin\Debug\MongoDbProvider.dll
+C:\Users\Woo\Documents\GitHub\CentaurTW\MongoDbProvider\bin\Debug\MongoDbProvider.pdb
+C:\Users\Woo\Documents\GitHub\CentaurTW\MongoDbProvider\bin\Debug\CentaurFactory.Model.dll
+C:\Users\Woo\Documents\GitHub\CentaurTW\MongoDbProvider\bin\Debug\MongoDB.Bson.dll
+C:\Users\Woo\Documents\GitHub\CentaurTW\MongoDbProvider\bin\Debug\MongoDB.Driver.dll
+C:\Users\Woo\Documents\GitHub\CentaurTW\MongoDbProvider\bin\Debug\CentaurFactory.Model.pdb
+C:\Users\Woo\Documents\GitHub\CentaurTW\MongoDbProvider\bin\Debug\MongoDB.Bson.xml
+C:\Users\Woo\Documents\GitHub\CentaurTW\MongoDbProvider\bin\Debug\MongoDB.Driver.xml
+C:\Users\Woo\Documents\GitHub\CentaurTW\MongoDbProvider\obj\Debug\CentaurFactory.MongoDbProvider.csprojResolveAssemblyReference.cache
+C:\Users\Woo\Documents\GitHub\CentaurTW\MongoDbProvider\obj\Debug\MongoDbProvider.dll
+C:\Users\Woo\Documents\GitHub\CentaurTW\MongoDbProvider\obj\Debug\MongoDbProvider.pdb

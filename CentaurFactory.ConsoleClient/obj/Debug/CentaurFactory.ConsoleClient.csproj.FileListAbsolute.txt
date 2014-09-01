@@ -76,3 +76,13 @@ D:\Telerik\Repos\CentaurTW\CentaurFactory.ConsoleClient\bin\Debug\MongoDB.Bson.x
 D:\Telerik\Repos\CentaurTW\CentaurFactory.ConsoleClient\bin\Debug\MongoDB.Driver.xml
 D:\Telerik\Repos\CentaurTW\CentaurFactory.ConsoleClient\obj\Debug\CentaurFactory.ConsoleClient.exe
 D:\Telerik\Repos\CentaurTW\CentaurFactory.ConsoleClient\obj\Debug\CentaurFactory.ConsoleClient.pdb
+C:\Users\Woo\Documents\GitHub\CentaurTW\CentaurFactory.ConsoleClient\bin\Debug\CentaurFactory.ExcelModel.dll
+C:\Users\Woo\Documents\GitHub\CentaurTW\CentaurFactory.ConsoleClient\bin\Debug\CentaurFactory.Model.dll
+C:\Users\Woo\Documents\GitHub\CentaurTW\CentaurFactory.ConsoleClient\bin\Debug\CentaurFactory.SqlServerProvider.dll
+C:\Users\Woo\Documents\GitHub\CentaurTW\CentaurFactory.ConsoleClient\bin\Debug\Ionic.Zip.dll
+C:\Users\Woo\Documents\GitHub\CentaurTW\CentaurFactory.ConsoleClient\bin\Debug\MongoDbProvider.dll
+C:\Users\Woo\Documents\GitHub\CentaurTW\CentaurFactory.ConsoleClient\bin\Debug\CentaurFactory.ExcelModel.pdb
+C:\Users\Woo\Documents\GitHub\CentaurTW\CentaurFactory.ConsoleClient\bin\Debug\CentaurFactory.Model.pdb
+C:\Users\Woo\Documents\GitHub\CentaurTW\CentaurFactory.ConsoleClient\bin\Debug\CentaurFactory.SqlServerProvider.pdb
+C:\Users\Woo\Documents\GitHub\CentaurTW\CentaurFactory.ConsoleClient\bin\Debug\MongoDbProvider.pdb
+C:\Users\Woo\Documents\GitHub\CentaurTW\CentaurFactory.ConsoleClient\bin\Debug\Ionic.Zip.xml
