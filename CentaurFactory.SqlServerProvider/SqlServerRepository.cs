@@ -29,5 +29,31 @@ namespace CentaurFactory.SqlServerProvider
 
             context.SaveChanges();
         }
+
+        public void AddIngredients(IEnumerable<Ingredient> ingredients)
+        {
+            foreach (Ingredient ingredient in ingredients)
+            {
+                var product = context.Products.First(x => x.Name == ingredient.Product.Name);
+                var dish = context.Dishes.FirstOrDefault(x => x.Name == ingredient.Dish.Name);
+                if (dish == null)
+                {
+                    dish = new Dish()
+                    {
+                        Name = ingredient.Dish.Name,
+                        Price = ingredient.Dish.Price
+                    };
+                }
+
+                context.Ingredients.Add(new Ingredient
+                {
+                    Dish = dish,
+                    Product = product,
+                    Quantity = ingredient.Quantity
+                });
+
+                context.SaveChanges();
+            }
+        }
     }
 }

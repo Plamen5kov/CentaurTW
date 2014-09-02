@@ -41,6 +41,30 @@ namespace CentaurFactory.MongoDbProvider
             return result;
         }
 
+        public IList<Ingredient> GetIngredients()
+        {
+            IList<MongoIngredient> ingredientsDb = provider.LoadData<MongoIngredient>();
+            IList<Ingredient> result = new List<Ingredient>();
+            foreach (MongoIngredient ingredient in ingredientsDb)
+            {
+                result.Add(new Ingredient
+                {
+                    Dish = new Dish()
+                    {
+                        Name = ingredient.Dish.Name,
+                        Price = ingredient.Dish.Price
+                    },
+                    Product = new Product
+                    {
+                        Name = ingredient.Product.Name
+                    },
+                    Quantity = ingredient.Quantity
+                });
+            }
+
+            return result;
+        }
+
         public IList<UnitType> GetUntTypes()
         {
             IList<MongoUnitType> unitTypesDb = provider.LoadData<MongoUnitType>();
@@ -140,11 +164,48 @@ namespace CentaurFactory.MongoDbProvider
                    Quantity = 40
                }
             };
+
+            var dishes = new List<Dish>()
+            {
+                new Dish() 
+                {
+                    Name = "Shopska Salata",
+                    Price = 3.1,
+                }
+            };
+
+            var ingredients = new List<Ingredient>()
+            {
+                new Ingredient()
+                {
+                    Dish = dishes[0],
+                    Product = products[0],
+                    Quantity = 0.2
+                },
+                new Ingredient()
+                {
+                    Dish = dishes[0],
+                    Product = products[1],
+                    Quantity = 0.2
+                },
+                new Ingredient()
+                {
+                    Dish = dishes[0],
+                    Product = products[2],
+                    Quantity = 0.2
+                },
+                new Ingredient()
+                {
+                    Dish = dishes[0],
+                    Product = products[3],
+                    Quantity = 0.2
+                }
+            };
+
             this.SaveUnitType(unitTypes[0]);
             this.SaveUnitType(unitTypes[1]);
             this.SaveUnitType(unitTypes[2]);
 
-            //These are added every time you run the program, but this is easy to be fixed.
             this.SaveProductType(productTypes[0]);
             this.SaveProductType(productTypes[1]);
             this.SaveProductType(productTypes[2]);
@@ -154,6 +215,13 @@ namespace CentaurFactory.MongoDbProvider
             this.SaveProduct(products[1]);
             this.SaveProduct(products[2]);
             this.SaveProduct(products[3]);
+
+            this.SaveDish(dishes[0]);
+
+            this.SaveIngredient(ingredients[0]);
+            this.SaveIngredient(ingredients[1]);
+            this.SaveIngredient(ingredients[2]);
+            this.SaveIngredient(ingredients[3]);
         }
 
         public void EreaseData()
@@ -161,6 +229,8 @@ namespace CentaurFactory.MongoDbProvider
             provider.DeleteAll<MongoProduct>();
             provider.DeleteAll<MongoProductType>();
             provider.DeleteAll<MongoUnitType>();
+            provider.DeleteAll<MongoDish>();
+            provider.DeleteAll<MongoIngredient>();
         }
 
         private void SaveProduct(Product product)
@@ -182,6 +252,22 @@ namespace CentaurFactory.MongoDbProvider
         private void SaveProductType(ProductType productType)
         {
             provider.SaveData(new MongoProductType(productType.Name));
+        }
+
+        private void SaveDish(Dish dish)
+        {
+            provider.SaveData(new MongoDish(dish.Name, dish.Price));
+        }
+
+        private void SaveIngredient(Ingredient ingredient)
+        {
+            var query = Query.EQ("Name", ingredient.Dish.Name);
+            MongoDish dish = provider.Find<MongoDish>(query);
+
+            query = Query.EQ("Name", ingredient.Product.Name);
+            MongoProduct product = provider.Find<MongoProduct>(query);
+
+            provider.SaveData(new MongoIngredient(dish, product, ingredient.Quantity));
         }
     }
 }

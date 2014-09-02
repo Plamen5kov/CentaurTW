@@ -22,8 +22,6 @@ C:\Users\Woo\Documents\GitHub\CentaurTW\CentaurFactory.ConsoleClient\bin\Debug\M
 C:\Users\Woo\Documents\GitHub\CentaurTW\CentaurFactory.ConsoleClient\obj\Debug\CentaurFactory.ConsoleClient.csprojResolveAssemblyReference.cache
 C:\Users\Woo\Documents\GitHub\CentaurTW\CentaurFactory.ConsoleClient\obj\Debug\CentaurFactory.ConsoleClient.exe
 C:\Users\Woo\Documents\GitHub\CentaurTW\CentaurFactory.ConsoleClient\obj\Debug\CentaurFactory.ConsoleClient.pdb
-C:\Users\Woo\Documents\GitHub\CentaurTW\CentaurFactory.ConsoleClient\bin\Debug\CentaurFactory.Data.dll
-C:\Users\Woo\Documents\GitHub\CentaurTW\CentaurFactory.ConsoleClient\bin\Debug\CentaurFactory.Data.pdb
 C:\Users\Ivan\Desktop\CentaurTW\CentaurFactory.ConsoleClient\bin\Debug\CentaurFactory.ConsoleClient.exe.config
 C:\Users\Ivan\Desktop\CentaurTW\CentaurFactory.ConsoleClient\obj\Debug\CentaurFactory.ConsoleClient.exe
 C:\Users\Ivan\Desktop\CentaurTW\CentaurFactory.ConsoleClient\obj\Debug\CentaurFactory.ConsoleClient.pdb
@@ -102,3 +100,7 @@ D:\Telerik\Repos\CentaurTW\CentaurFactory.ConsoleClient\obj\Debug\CentaurFactory
 D:\Telerik\Repos\CentaurTW\CentaurFactory.ConsoleClient\obj\Debug\CentaurFactory.ConsoleClient.pdb
 D:\Telerik\Repos\CentaurTW\CentaurFactory.ConsoleClient\bin\Debug\Newtonsoft.Json.dll
 D:\Telerik\Repos\CentaurTW\CentaurFactory.ConsoleClient\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Woo\Documents\GitHub\CentaurTW\CentaurFactory.ConsoleClient\bin\Debug\CentaurFactory.XMLModel.dll
+C:\Users\Woo\Documents\GitHub\CentaurTW\CentaurFactory.ConsoleClient\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Woo\Documents\GitHub\CentaurTW\CentaurFactory.ConsoleClient\bin\Debug\CentaurFactory.XMLModel.pdb
+C:\Users\Woo\Documents\GitHub\CentaurTW\CentaurFactory.ConsoleClient\bin\Debug\Newtonsoft.Json.xml

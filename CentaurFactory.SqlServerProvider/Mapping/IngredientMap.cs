@@ -12,12 +12,15 @@ namespace CentaurFactory.SqlServerProvider
     {
         public IngredientMap()
         {
-            this.ToTable("Product");
+            this.ToTable("Ingredient");
 
             this.HasKey(x => x.Id);
 
             this.Property(x => x.Id).HasColumnName("Id");
             this.Property(x => x.Quantity).HasColumnName("Quantity");
+
+            this.HasRequired(x => x.Product).WithMany(x => x.Ingredients);
+            this.HasRequired(x => x.Dish).WithMany(x => x.Ingredients);
         }
     }
 }
