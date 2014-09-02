@@ -101,3 +101,4 @@ D:\Telerik\Repos\CentaurTW\CentaurFactory.ConsoleClient\bin\Debug\PowerCollectio
 D:\Telerik\Repos\CentaurTW\CentaurFactory.ConsoleClient\obj\Debug\CentaurFactory.ConsoleClient.exe
 D:\Telerik\Repos\CentaurTW\CentaurFactory.ConsoleClient\obj\Debug\CentaurFactory.ConsoleClient.pdb
 D:\Telerik\Repos\CentaurTW\CentaurFactory.ConsoleClient\bin\Debug\Newtonsoft.Json.dll
+D:\Telerik\Repos\CentaurTW\CentaurFactory.ConsoleClient\bin\Debug\Newtonsoft.Json.xml
