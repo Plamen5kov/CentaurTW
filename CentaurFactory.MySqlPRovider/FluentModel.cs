@@ -67,6 +67,14 @@ namespace CentaurFactory.MySqlPRovider
                 return this.GetAll<Sale>();
             }
         }
+
+        public IQueryable<DishReport> DishReport
+        {
+            get
+            {
+                return this.GetAll<DishReport>();
+            }
+        }
 		
 		/// <summary>
 		/// Allows you to customize the BackendConfiguration of CentaurFactoryModel.
