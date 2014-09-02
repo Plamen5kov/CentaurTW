@@ -72,7 +72,6 @@ C:\Users\Woo\Documents\GitHub\CentaurTW\CentaurFactory.ConsoleClient\bin\Debug\P
 C:\Users\Woo\Documents\GitHub\CentaurTW\CentaurFactory.ConsoleClient\bin\Debug\PowerCollections.xml
 D:\Telerik\Repos\CentaurTW\CentaurFactory.ConsoleClient\bin\Debug\CentaurFactory.ConsoleClient.exe
 D:\Telerik\Repos\CentaurTW\CentaurFactory.ConsoleClient\bin\Debug\CentaurFactory.ConsoleClient.pdb
-D:\Telerik\Repos\CentaurTW\CentaurFactory.ConsoleClient\bin\Debug\CentaurFactory.Data.dll
 D:\Telerik\Repos\CentaurTW\CentaurFactory.ConsoleClient\bin\Debug\CentaurFactory.ExcelModel.dll
 D:\Telerik\Repos\CentaurTW\CentaurFactory.ConsoleClient\bin\Debug\CentaurFactory.Model.dll
 D:\Telerik\Repos\CentaurTW\CentaurFactory.ConsoleClient\bin\Debug\CentaurFactory.MySqlPRovider.dll
@@ -86,7 +85,6 @@ D:\Telerik\Repos\CentaurTW\CentaurFactory.ConsoleClient\bin\Debug\MongoDbProvide
 D:\Telerik\Repos\CentaurTW\CentaurFactory.ConsoleClient\bin\Debug\Telerik.OpenAccess.35.Extensions.dll
 D:\Telerik\Repos\CentaurTW\CentaurFactory.ConsoleClient\bin\Debug\Telerik.OpenAccess.40.Extensions.dll
 D:\Telerik\Repos\CentaurTW\CentaurFactory.ConsoleClient\bin\Debug\PowerCollections.dll
-D:\Telerik\Repos\CentaurTW\CentaurFactory.ConsoleClient\bin\Debug\CentaurFactory.Data.pdb
 D:\Telerik\Repos\CentaurTW\CentaurFactory.ConsoleClient\bin\Debug\CentaurFactory.ExcelModel.pdb
 D:\Telerik\Repos\CentaurTW\CentaurFactory.ConsoleClient\bin\Debug\CentaurFactory.Model.pdb
 D:\Telerik\Repos\CentaurTW\CentaurFactory.ConsoleClient\bin\Debug\CentaurFactory.MySqlPRovider.pdb

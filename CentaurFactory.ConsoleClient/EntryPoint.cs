@@ -15,7 +15,6 @@
     using MongoDB.Bson.Serialization.Options;
     using MongoDB.Bson.Serialization.Serializers;
     using MongoDB.Driver.Wrappers;
-    using CentaurFactory.Data;
     using System.Collections.Generic;
     using System.Linq;
     using System.Configuration;
