@@ -15,3 +15,13 @@ C:\Users\Woo\Documents\GitHub\CentaurTW\CentaurFactory.ExcelModel\obj\Debug\Cent
 D:\Telerik\Repos\CentaurTW\CentaurFactory.ExcelModel\obj\Debug\CentaurFactory.ExcelModel.csprojResolveAssemblyReference.cache
 C:\Users\Woo\Documents\GitHub\CentaurTW\CentaurFactory.ExcelModel\bin\Debug\PowerCollections.dll
 C:\Users\Woo\Documents\GitHub\CentaurTW\CentaurFactory.ExcelModel\bin\Debug\PowerCollections.xml
+D:\Telerik\Repos\CentaurTW\CentaurFactory.ExcelModel\bin\Debug\CentaurFactory.ExcelModel.dll
+D:\Telerik\Repos\CentaurTW\CentaurFactory.ExcelModel\bin\Debug\CentaurFactory.ExcelModel.pdb
+D:\Telerik\Repos\CentaurTW\CentaurFactory.ExcelModel\bin\Debug\PowerCollections.dll
+D:\Telerik\Repos\CentaurTW\CentaurFactory.ExcelModel\bin\Debug\Telerik.OpenAccess.35.Extensions.dll
+D:\Telerik\Repos\CentaurTW\CentaurFactory.ExcelModel\bin\Debug\Telerik.OpenAccess.40.Extensions.dll
+D:\Telerik\Repos\CentaurTW\CentaurFactory.ExcelModel\bin\Debug\PowerCollections.xml
+D:\Telerik\Repos\CentaurTW\CentaurFactory.ExcelModel\bin\Debug\Telerik.OpenAccess.35.Extensions.xml
+D:\Telerik\Repos\CentaurTW\CentaurFactory.ExcelModel\bin\Debug\Telerik.OpenAccess.40.Extensions.xml
+D:\Telerik\Repos\CentaurTW\CentaurFactory.ExcelModel\obj\Debug\CentaurFactory.ExcelModel.dll
+D:\Telerik\Repos\CentaurTW\CentaurFactory.ExcelModel\obj\Debug\CentaurFactory.ExcelModel.pdb

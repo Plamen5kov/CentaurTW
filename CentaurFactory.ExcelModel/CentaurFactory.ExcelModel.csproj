@@ -35,7 +35,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="PowerCollections">
-      <HintPath>..\..\..\Visual Studio 2012\Projects\FormattingCode\PowerCollections\Binaries\PowerCollections.dll</HintPath>
+      <HintPath>..\packages\XAct.Wintellect.PowerCollections.0.0.1\lib\net20\PowerCollections.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
