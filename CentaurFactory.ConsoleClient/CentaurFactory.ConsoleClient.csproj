@@ -88,10 +88,6 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CentaurFactory.Data\CentaurFactory.Data.csproj">
-      <Project>{7ed45ec2-cbba-4aaa-a9a4-861bf1cf474a}</Project>
-      <Name>CentaurFactory.Data</Name>
-    </ProjectReference>
     <ProjectReference Include="..\CentaurFactory.ExcelModel\CentaurFactory.ExcelModel.csproj">
       <Project>{effb95eb-e5dc-4edb-8562-c861fd35c351}</Project>
       <Name>CentaurFactory.ExcelModel</Name>
