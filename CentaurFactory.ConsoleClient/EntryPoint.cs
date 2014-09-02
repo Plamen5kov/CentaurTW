@@ -34,14 +34,29 @@ using CentaurFactory.Model;
 
     public class EntryPoint
     {
+        private static MongoProvider mongoProvider = new MongoProvider(ConfigurationManager.AppSettings["mongoDB"], "centaur_restaurant_db");
+
         public static void Option1()
         {
+            var mongoRepo = new MongoRepository(mongoProvider);
+            mongoRepo.EreaseData();
+            mongoRepo.InitData();
+
             Console.WriteLine("Config data saved to Mongo DB");
         }
 
         public static void Option2()
         {
-            Console.WriteLine("Confog data read from Mongo DB");
+            var mongoRepo = new MongoRepository(mongoProvider);
+            var allProductsInDb = mongoRepo.GetProducts();
+            var allIngredientsInDB = mongoRepo.GetIngredients();
+            
+            Console.WriteLine("Config data read from Mongo DB");
+
+            var sqlServerRepo = new SqlServerRepository("SQLServer");
+            sqlServerRepo.AddProducts(allProductsInDb);
+            sqlServerRepo.AddIngredients(allIngredientsInDB);
+
             Console.WriteLine("Confog data written into MSSQL");
         }
 

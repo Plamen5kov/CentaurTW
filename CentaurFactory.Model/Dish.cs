@@ -17,7 +17,7 @@ namespace CentaurFactory.Model
 
         public string Name { get; set; }
 
-        public Decimal Price { get; set; }
+        public Double Price { get; set; }
 
         public virtual ICollection<Ingredient> Ingredients { get; set; }
     }
