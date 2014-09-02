@@ -4,12 +4,14 @@
 
     using CentaurFactory.Model;
     using CentaurFactory.SqlServerProvider.Mapping;
+    using CentaurFactory.SqlServerProvider.Migrations;
 
-    internal class DataContext : DbContext
+    public class DataContext : DbContext
     {
         public DataContext()
             : base("SQLServer")
         {
+            Database.SetInitializer(new MigrateDatabaseToLatestVersion<DataContext, Config>());
         }
 
         public DataContext(string connectionString)

@@ -26,8 +26,10 @@
     using CentaurFactory.ExcelModel.Parsers;
     using CentaurFactory.SqlServerProvider;
 
+    using Newtonsoft.Json;
     using Telerik.OpenAccess;
     using MySqlPRovider;
+    using System.IO;
 
     public class EntryPoint
     {
@@ -74,7 +76,11 @@
 
             UpdateDatabase();
 
-           // ExtractZipFiles();
+            // ExtractZipFiles();
+
+            //DataContext data = new DataContext();
+            //ExportReportToJsonFiles(data);
+
         }
 
         /// <summary>
@@ -120,6 +126,39 @@
             if (!string.IsNullOrEmpty(script))
             {
                 schemaHandler.ExecuteDDLScript(script);
+            }
+        }
+
+        public static void ExportReportToJsonFiles(DataContext data)
+        {
+            var products = data.Products.Select(p => new
+            {
+                id = p.Id,
+                name = p.Name,
+                productType = p.ProductType,
+                ingerdients = p.Ingredients,
+                unitType = p.UnitType,
+                qunatity = p.Quantity
+            });
+
+            Array.ForEach(Directory.GetFiles("..\\..\\..\\Reports\\Json-Reports\\"), File.Delete);
+
+            var serializer = new JsonSerializer();
+            foreach (var product in products)
+            {
+                string path = "..\\..\\..\\Reports\\Json-Reports\\" + product.id + ".json";
+
+                using (var fileStream = new FileStream(path, FileMode.CreateNew))
+                {
+                    using (var sw = new StreamWriter(fileStream))
+                    {
+                        using (var writer = new JsonTextWriter(sw))
+                        {
+                            writer.Formatting = Formatting.Indented;
+                            serializer.Serialize(writer, product);
+                        }
+                    }
+                }
             }
         }
     }
