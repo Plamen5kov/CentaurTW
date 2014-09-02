@@ -103,6 +103,10 @@
       <Project>{92194780-46a0-4e5b-84aa-7beaa10095b8}</Project>
       <Name>CentaurFactory.SqlServerProvider</Name>
     </ProjectReference>
+    <ProjectReference Include="..\CentaurFactory.XMLModel\CentaurFactory.XMLModel.csproj">
+      <Project>{93fd43fd-0b05-4b6c-be57-415bd4d00386}</Project>
+      <Name>CentaurFactory.XMLModel</Name>
+    </ProjectReference>
     <ProjectReference Include="..\MongoDbProvider\CentaurFactory.MongoDbProvider.csproj">
       <Project>{832d1a40-23b8-430e-8e55-96995957bee5}</Project>
       <Name>CentaurFactory.MongoDbProvider</Name>

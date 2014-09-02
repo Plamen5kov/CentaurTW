@@ -30,6 +30,8 @@
     using MySqlPRovider;
     using System.IO;
 
+    using CentaurFactory.XMLModel;
+
     public class EntryPoint
     {
         public static void Main()
@@ -73,12 +75,18 @@
             //    Console.WriteLine(item.ToString());
             //}
 
+
+            SalesParser salesParser = new SalesParser();
+            List<CentaurFactory.XMLModel.Sale> sales = salesParser.ParseData("..\\..\\..\\CentaurFactory.XMLModel\\Sales.xml");
+
             UpdateDatabase();
 
             // ExtractZipFiles();
 
             //DataContext data = new DataContext();
             //ExportReportToJsonFiles(data);
+
+
 
         }
 
