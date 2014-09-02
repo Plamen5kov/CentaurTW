@@ -4,7 +4,6 @@
     using System.Collections.Generic;
     using System.Data.OleDb;
     using System.IO;
-
     using Wintellect.PowerCollections;
 
     public class ExcelParser
@@ -20,7 +19,7 @@
             this.sales = new MultiDictionary<string, Sale>(true);
         }
 
-        public IDictionary<string, DeliveryInfo> Deliveries
+        public MultiDictionary<string, DeliveryInfo> Deliveries
         {
             get
             {
@@ -32,7 +31,7 @@
             }
         }
 
-        public IDictionary<string, Dish> Dishes
+        public MultiDictionary<string, Dish> Dishes
         {
             get
             {
@@ -44,7 +43,7 @@
             }
         }
 
-        public IDictionary<string, Sale> Sales
+        public MultiDictionary<string, Sale> Sales
         {
             get
             {

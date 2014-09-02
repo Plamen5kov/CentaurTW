@@ -13,3 +13,5 @@ C:\Users\Woo\Documents\GitHub\CentaurTW\CentaurFactory.ExcelModel\obj\Debug\Cent
 C:\Users\Woo\Documents\GitHub\CentaurTW\CentaurFactory.ExcelModel\obj\Debug\CentaurFactory.ExcelModel.dll
 C:\Users\Woo\Documents\GitHub\CentaurTW\CentaurFactory.ExcelModel\obj\Debug\CentaurFactory.ExcelModel.pdb
 D:\Telerik\Repos\CentaurTW\CentaurFactory.ExcelModel\obj\Debug\CentaurFactory.ExcelModel.csprojResolveAssemblyReference.cache
+C:\Users\Woo\Documents\GitHub\CentaurTW\CentaurFactory.ExcelModel\bin\Debug\PowerCollections.dll
+C:\Users\Woo\Documents\GitHub\CentaurTW\CentaurFactory.ExcelModel\bin\Debug\PowerCollections.xml

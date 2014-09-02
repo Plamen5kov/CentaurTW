@@ -68,3 +68,5 @@ C:\Users\Woo\Documents\GitHub\CentaurTW\CentaurFactory.ConsoleClient\bin\Debug\T
 C:\Users\Woo\Documents\GitHub\CentaurTW\CentaurFactory.ConsoleClient\bin\Debug\Telerik.OpenAccess.40.Extensions.xml
 D:\Telerik\Repos\CentaurTW\CentaurFactory.ConsoleClient\obj\Debug\CentaurFactory.ConsoleClient.csprojResolveAssemblyReference.cache
 D:\Telerik\Repos\CentaurTW\CentaurFactory.ConsoleClient\bin\Debug\CentaurFactory.ConsoleClient.exe.config
+C:\Users\Woo\Documents\GitHub\CentaurTW\CentaurFactory.ConsoleClient\bin\Debug\PowerCollections.dll
+C:\Users\Woo\Documents\GitHub\CentaurTW\CentaurFactory.ConsoleClient\bin\Debug\PowerCollections.xml

@@ -43,8 +43,8 @@
             //var mongoClient = new MongoClient("mongodb://192.168.0.100/");
             //var mongoServer = mongoClient.GetServer();
             //var centaurRestaurantDb = mongoServer.GetDatabase("CentaurRestaurantDb");
-           // var mongoProvider = new MongoProvider(ConfigurationManager.AppSettings["mongoDB"], "centaur_restaurant_db");
-          //  var mongoRepo = new MongoRepository(mongoProvider);
+            var mongoProvider = new MongoProvider(ConfigurationManager.AppSettings["mongoDB"], "centaur_restaurant_db");
+            var mongoRepo = new MongoRepository(mongoProvider);
 
             // uncomment to load data to mongo db
             //mongoRepo.InitData();
