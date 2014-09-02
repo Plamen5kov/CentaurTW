@@ -9,14 +9,15 @@
     public class ExcelParser
     {
         private MultiDictionary<string, DeliveryInfo> deliveries;
-        private MultiDictionary<string, Dish> dishes;
-        private MultiDictionary<string, Sale> sales;
+        //private MultiDictionary<string, Dish> dishes;
+        //private MultiDictionary<string, Sale> sales;
+
 
         public ExcelParser()
         {
             this.deliveries = new MultiDictionary<string, DeliveryInfo>(true);
-            this.dishes = new MultiDictionary<string, Dish>(true);
-            this.sales = new MultiDictionary<string, Sale>(true);
+            //this.dishes = new MultiDictionary<string, Dish>(true);
+            //this.sales = new MultiDictionary<string, Sale>(true);
         }
 
         public MultiDictionary<string, DeliveryInfo> Deliveries
@@ -31,29 +32,29 @@
             }
         }
 
-        public MultiDictionary<string, Dish> Dishes
-        {
-            get
-            {
-                return this.dishes;
-            }
-            set
-            {
-                this.dishes = value;
-            }
-        }
+        //public MultiDictionary<string, Dish> Dishes
+        //{
+        //    get
+        //    {
+        //        return this.dishes;
+        //    }
+        //    set
+        //    {
+        //        this.dishes = value;
+        //    }
+        //}
 
-        public MultiDictionary<string, Sale> Sales
-        {
-            get
-            {
-                return this.sales;
-            }
-            set
-            {
-                this.sales = value;
-            }
-        }
+        //public MultiDictionary<string, Sale> Sales
+        //{
+        //    get
+        //    {
+        //        return this.sales;
+        //    }
+        //    set
+        //    {
+        //        this.sales = value;
+        //    }
+        //}
 
         public void ReadFilesAndFolders(string path, int indent)
         {
@@ -92,16 +93,17 @@
                 {
                     ParseDeliveryInfo(reader, dirName);
                 }
-                else if (className.ToLower() == "Dishes".ToLower())
-                {
-                    ParseDishes(reader, dirName);
-                }
-                else if (className.ToLower() == "Sales".ToLower())
-                {
-                    ParseSales(reader, dirName);
+                //else if (className.ToLower() == "Dishes".ToLower())
+                //{
+                //    ParseDishes(reader, dirName);
+                //}
+                //else if (className.ToLower() == "Sales".ToLower())
+                //{
+                //    ParseSales(reader, dirName);
 
-                }
-                // TODO: sales ?!
+                //}
+
+                throw new ArgumentException("class name is not valid", "className");
             }
         }
 
@@ -141,43 +143,43 @@
             }
         }
 
-        private void ParseDishes(OleDbDataReader reader, string dirName)
-        {
-            while (reader.Read())
-            {
-                var dishId = int.Parse(reader["DishId"].ToString());
-                var name = (string)reader["Name"];
-                var price = decimal.Parse(reader["Price"].ToString());
-                var date = DateTime.Parse(dirName).ToShortDateString();
+        //private void ParseDishes(OleDbDataReader reader, string dirName)
+        //{
+        //    while (reader.Read())
+        //    {
+        //        var dishId = int.Parse(reader["DishId"].ToString());
+        //        var name = (string)reader["Name"];
+        //        var price = decimal.Parse(reader["Price"].ToString());
+        //        var date = DateTime.Parse(dirName).ToShortDateString();
 
-                this.Dishes.Add(date, new Dish()
-                {
-                    DishId = dishId,
-                    Name = name,
-                    Price = price
-                });
-            }
-        }
+        //        this.Dishes.Add(date, new Dish()
+        //        {
+        //            DishId = dishId,
+        //            Name = name,
+        //            Price = price
+        //        });
+        //    }
+        //}
 
-        private void ParseSales(OleDbDataReader reader, string dirName)
-        {
-            while (reader.Read())
-            {
-                var productId = int.Parse(reader["ProductId"].ToString());
-                var unitCount = int.Parse(reader["Units Count"].ToString()); ;
-                var month = int.Parse(reader["Month"].ToString());
-                var year = int.Parse(reader["Year"].ToString());
-                var date = DateTime.Parse(dirName).ToShortDateString();
+        //private void ParseSales(OleDbDataReader reader, string dirName)
+        //{
+        //    while (reader.Read())
+        //    {
+        //        var productId = int.Parse(reader["ProductId"].ToString());
+        //        var unitCount = int.Parse(reader["Units Count"].ToString()); ;
+        //        var month = int.Parse(reader["Month"].ToString());
+        //        var year = int.Parse(reader["Year"].ToString());
+        //        var date = DateTime.Parse(dirName).ToShortDateString();
 
-                this.Sales.Add(date, new Sale()
-                {
-                    ProductId = productId,
-                    UnitCount = unitCount,
-                    Month = month,
-                    Year = year
-                });
-            }
-        }
+        //        this.Sales.Add(date, new Sale()
+        //        {
+        //            ProductId = productId,
+        //            UnitCount = unitCount,
+        //            Month = month,
+        //            Year = year
+        //        });
+        //    }
+        //}
 
         private static OleDbConnectionStringBuilder ConfigureConnectionString(string path, string fileName)
         {

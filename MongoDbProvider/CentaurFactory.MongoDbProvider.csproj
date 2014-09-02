@@ -7,7 +7,7 @@
     <ProjectGuid>{832D1A40-23B8-430E-8E55-96995957BEE5}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MongoDbProvider</RootNamespace>
+    <RootNamespace>CentaurFactory.MongoDbProvider</RootNamespace>
     <AssemblyName>MongoDbProvider</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
