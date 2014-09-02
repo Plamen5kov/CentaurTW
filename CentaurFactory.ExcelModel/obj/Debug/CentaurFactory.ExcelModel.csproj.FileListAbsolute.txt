@@ -3,10 +3,6 @@ C:\Users\Ivan\Desktop\CentaurTW\CentaurFactory.ExcelModel\bin\Debug\CentaurFacto
 C:\Users\Ivan\Desktop\CentaurTW\CentaurFactory.ExcelModel\obj\Debug\CentaurFactory.ExcelModel.csprojResolveAssemblyReference.cache
 C:\Users\Ivan\Desktop\CentaurTW\CentaurFactory.ExcelModel\obj\Debug\CentaurFactory.ExcelModel.dll
 C:\Users\Ivan\Desktop\CentaurTW\CentaurFactory.ExcelModel\obj\Debug\CentaurFactory.ExcelModel.pdb
-D:\Telerik\Repos\CentaurTW\CentaurFactory.ExcelModel\bin\Debug\CentaurFactory.ExcelModel.dll
-D:\Telerik\Repos\CentaurTW\CentaurFactory.ExcelModel\bin\Debug\CentaurFactory.ExcelModel.pdb
-D:\Telerik\Repos\CentaurTW\CentaurFactory.ExcelModel\obj\Debug\CentaurFactory.ExcelModel.dll
-D:\Telerik\Repos\CentaurTW\CentaurFactory.ExcelModel\obj\Debug\CentaurFactory.ExcelModel.pdb
 C:\Users\Woo\Documents\GitHub\CentaurTW\CentaurFactory.ExcelModel\bin\Debug\CentaurFactory.ExcelModel.dll
 C:\Users\Woo\Documents\GitHub\CentaurTW\CentaurFactory.ExcelModel\bin\Debug\CentaurFactory.ExcelModel.pdb
 C:\Users\Woo\Documents\GitHub\CentaurTW\CentaurFactory.ExcelModel\bin\Debug\Telerik.OpenAccess.35.Extensions.dll
@@ -16,3 +12,4 @@ C:\Users\Woo\Documents\GitHub\CentaurTW\CentaurFactory.ExcelModel\bin\Debug\Tele
 C:\Users\Woo\Documents\GitHub\CentaurTW\CentaurFactory.ExcelModel\obj\Debug\CentaurFactory.ExcelModel.csprojResolveAssemblyReference.cache
 C:\Users\Woo\Documents\GitHub\CentaurTW\CentaurFactory.ExcelModel\obj\Debug\CentaurFactory.ExcelModel.dll
 C:\Users\Woo\Documents\GitHub\CentaurTW\CentaurFactory.ExcelModel\obj\Debug\CentaurFactory.ExcelModel.pdb
+D:\Telerik\Repos\CentaurTW\CentaurFactory.ExcelModel\obj\Debug\CentaurFactory.ExcelModel.csprojResolveAssemblyReference.cache

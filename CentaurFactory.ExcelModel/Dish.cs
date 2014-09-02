@@ -1,13 +1,14 @@
-﻿namespace CentaurFactory.Data
+﻿namespace CentaurFactory.ExcelModel
 {
-    using MongoDB.Bson;
     using System;
 
     public class Dish
     {
-        ObjectId Id;
-        public string Name { get; set; }
         private decimal price;
+
+        public int DishId { get; set; }
+
+        public string Name { get; set; }
 
         public decimal Price
         {
