@@ -5,17 +5,19 @@
     using System.Data.OleDb;
     using System.IO;
 
+    using Wintellect.PowerCollections;
+
     public class ExcelParser
     {
-        private IDictionary<string, DeliveryInfo> deliveries;
-        private IDictionary<string, Dish> dishes;
-        private IDictionary<string, Sale> sales;
+        private MultiDictionary<string, DeliveryInfo> deliveries;
+        private MultiDictionary<string, Dish> dishes;
+        private MultiDictionary<string, Sale> sales;
 
         public ExcelParser()
         {
-            this.deliveries = new Dictionary<string, DeliveryInfo>();
-            this.dishes = new Dictionary<string, Dish>();
-            this.sales = new Dictionary<string, Sale>();
+            this.deliveries = new MultiDictionary<string, DeliveryInfo>(true);
+            this.dishes = new MultiDictionary<string, Dish>(true);
+            this.sales = new MultiDictionary<string, Sale>(true);
         }
 
         public IDictionary<string, DeliveryInfo> Deliveries
@@ -98,8 +100,9 @@
                 else if (className.ToLower() == "Sales".ToLower())
                 {
                     ParseSales(reader, dirName);
+
                 }
-                // sales ?!
+                // TODO: sales ?!
             }
         }
 
