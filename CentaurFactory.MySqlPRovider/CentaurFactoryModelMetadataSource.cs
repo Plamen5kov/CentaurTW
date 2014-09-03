@@ -43,6 +43,18 @@ namespace CentaurFactory.MySqlPRovider
 
             configurations.Add(saleMapping);
 
+            var dishReportMapping = new MappingConfiguration<DishReport>();
+            dishReportMapping.MapType(report => new
+            {
+                Month = report.Month,
+                DeliveredPrice = report.DeliveredPrice,
+                SoldPrice = report.SoldPrice,
+                Code = report.Code,
+            }).ToTable("DishReport");
+            saleMapping.HasProperty(s => s.Id).IsIdentity();
+
+            configurations.Add(dishReportMapping);
+
             return configurations;
         }
 		

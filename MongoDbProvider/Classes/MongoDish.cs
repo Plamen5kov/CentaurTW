@@ -13,9 +13,9 @@ namespace CentaurFactory.MongoDbProvider
 
         public string Name { get; set; }
 
-        public Decimal Price { get; set; }
+        public Double Price { get; set; }
 
-        public MongoDish(string name, decimal price)
+        public MongoDish(string name, double price)
         {
             this.Id = ObjectId.GenerateNewId();
             this.Name = name;

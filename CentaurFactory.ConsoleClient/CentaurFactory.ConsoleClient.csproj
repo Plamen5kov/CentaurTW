@@ -50,8 +50,7 @@
     <Reference Include="MongoDB.Driver">
       <HintPath>..\packages\mongocsharpdriver.1.9.2\lib\net35\MongoDB.Driver.dll</HintPath>
     </Reference>
-    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="Newtonsoft.Json">
       <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="System" />
@@ -78,6 +77,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="EntryPoint.cs" />
+    <Compile Include="Menu.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -103,6 +103,10 @@
     <ProjectReference Include="..\CentaurFactory.SqlServerProvider\CentaurFactory.SqlServerProvider.csproj">
       <Project>{92194780-46a0-4e5b-84aa-7beaa10095b8}</Project>
       <Name>CentaurFactory.SqlServerProvider</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CentaurFactory.XMLModel\CentaurFactory.XMLModel.csproj">
+      <Project>{93fd43fd-0b05-4b6c-be57-415bd4d00386}</Project>
+      <Name>CentaurFactory.XMLModel</Name>
     </ProjectReference>
     <ProjectReference Include="..\MongoDbProvider\CentaurFactory.MongoDbProvider.csproj">
       <Project>{832d1a40-23b8-430e-8e55-96995957bee5}</Project>
