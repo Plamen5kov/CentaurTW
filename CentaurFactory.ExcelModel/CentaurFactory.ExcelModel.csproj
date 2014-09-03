@@ -61,6 +61,7 @@
     <Compile Include="DeliveryInfo.cs" />
     <Compile Include="Parsers\ExcelParser.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Writers\ExcelWriter.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="OpenAccessNuGet.targets" />
